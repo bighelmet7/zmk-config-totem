@@ -103,19 +103,19 @@
 label= "SYM"                               ;
 // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 //             ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓   ┏━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┳━━━━━━━━━━━┓
-//             ┃     !     ┃     "     ┃    #      ┃     $     ┃     %     ┃   ┃     ^     ┃     &     ┃     *     ┃     (     ┃     )     ┃
+//             ┃     !     ┃     "     ┃    £      ┃     $     ┃     %     ┃   ┃     ^     ┃     &     ┃     *     ┃     (     ┃     )     ┃
 //             ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫
-//             ┃     \     ┃      |    ┃  GRAVE    ┃           ┃           ┃   ┃     -     ┃     =     ┃     =     ┃     [     ┃     ]     ┃
+//             ┃     `     ┃     ~     ┃    #      ┃           ┃           ┃   ┃     -     ┃     =     ┃     =     ┃     [     ┃     ]     ┃
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
-// ┃           ┃    PLAY   ┃   VOL_-   ┃  VOL_+    ┃    MUTE   ┃  P_NEXT   ┃   ┃     _     ┃     +     ┃     {     ┃     }     ┃     ~     ┃           ┃
+// ┃           ┃    PLAY   ┃   VOL_-   ┃  VOL_+    ┃    MUTE   ┃  P_NEXT   ┃   ┃     _     ┃     +     ┃     {     ┃     }     ┃     |     ┃     '     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 //                                     ┃           ┃    GIF    ┃    ADJ    ┃   ┃           ┃           ┃           ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
  bindings = <
 // ╷           ╷           ╷           ╷           ╷           ╷           ╷   ╷           ╷           ╷           ╷           ╷           ╷           ╷
 
-                &kp EXCL    &kp LS(DQT)           &kp POUND       &kp DLLR        &kp PRCNT       &kp CARET   &kp AMPS    &kp KP_ASTERISK   &kp LPAR      &kp RPAR
-                &kp GRAVE   &kp TILDE             &kp RA(GRAVE)   &trans          &trans          &kp MINUS   &kp EQUAL   &kp LBKT          &kp RBKT      &kp NON_US_HASH
+                &kp EXCL    &kp DQT               &kp POUND       &kp DLLR        &kp PRCNT       &kp CARET   &kp AMPS    &kp KP_ASTERISK   &kp LPAR      &kp RPAR
+                &kp GRAVE   &kp TILDE             &kp RA(KP_N3)   &trans          &trans          &kp MINUS   &kp EQUAL   &kp LBKT          &kp RBKT      &kp NON_US_HASH
     &trans      &kp C_PP    &kp C_VOL_DN          &kp C_VOL_UP    &kp C_MUTE      &kp C_NEXT      &kp UNDER   &kp PLUS    &kp LBRC          &kp RBRC      &kp PIPE   &trans
                                                   &trans          &gif            &mo ADJ         &trans      &trans      &trans
                         >;
