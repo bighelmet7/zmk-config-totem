@@ -72,13 +72,13 @@
 // ┏━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┓
 // ┃  SHFT     ┃     Z     ┃     X     ┃     C     ┃     V     ┃     B     ┃   ┃     N     ┃     M     ┃     ,     ┃     .     ┃     /     ┃     '     ┃
 // ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┫   ┣━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━╋━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
-//                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃    ESC    ┃   BSPC    ┃
+//                                     ┃    DEL    ┃    TAB    ┃    SPC    ┃   ┃   ENTER   ┃    BSPC   ┃   ESC     ┃
 //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
     bindings = <
                      &kp Q       &kp W       &kp E       &kp R       &kp T           &kp Y       &kp U           &kp I       &kp O       &kp P
                      &mt LSHFT A &mt LCTRL S &mt LALT D  &mt LGUI F  &kp G           &kp H       &mt RGUI J      &mt RALT K  &mt RCTRL L &mt RSHFT SEMI
          &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B           &kp N       &kp M           &kp COMMA   &kp DOT     &kp FSLH    &kp SINGLE_QUOTE
-                                             &kp DEL     &lt NAV TAB &kp SPACE       &kp RET     &lt SYM ESC     &kp BSPC
+                                             &kp DEL     &lt NAV TAB &kp SPACE       &kp RET     &lt SYM BSPC    &kp ESC
      >;
   };
 
