@@ -24,9 +24,9 @@
 #define TVP2 5
 
 &mt {
-  quick-tap-ms = <100>;
+  quick-tap-ms = <190>;
   global-quick-tap;
-  flavor = "hold-preferred";
+  flavor = "balanced";
   tapping-term-ms = <190>;
 };
 
