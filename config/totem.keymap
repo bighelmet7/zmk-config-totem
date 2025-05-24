@@ -45,22 +45,9 @@
             };
     };
 
-    macros {
-        gif: gif {
-            label = "giphy";
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp N2>
-                , <&macro_release &kp LSHFT>
-                , <&macro_tap &kp G &kp I &kp F>
-                ;
-        };
-    };
 
-        keymap {
-                compatible = "zmk,keymap";
+  keymap {
+    compatible = "zmk,keymap";
 // ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
   base_layer {
@@ -118,7 +105,7 @@ label= "SYM"                               ;
                 &kp EXCL    &kp AT                &kp POUND       &kp DLLR        &kp PRCNT       &kp CARET   &kp AMPS    &kp KP_ASTERISK   &kp LPAR      &kp RPAR
                 &kp GRAVE   &trans                &trans          &trans          &trans          &kp MINUS   &kp EQUAL   &kp LBKT          &kp RBKT      &kp BSLH
     &trans      &kp C_PP    &kp C_VOL_DN          &kp C_VOL_UP    &kp C_MUTE      &kp C_NEXT      &kp UNDER   &kp PLUS    &kp LBRC          &kp RBRC      &kp PIPE   &kp TILDE
-                                                  &trans          &mo ADJ         &gif            &trans      &trans      &trans
+                                                  &trans          &mo ADJ         &trans          &trans      &trans      &trans
                         >;
                 };
 
